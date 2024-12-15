@@ -134,7 +134,6 @@ public class ReizigerDAOpsql implements ReizigerDAO {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         return reizigers;
     }
 }
